@@ -122,10 +122,8 @@ public class Exercice {
     public List<Page> pagesWithMoreMistakesThan(int amount) {
       List<Page> pages = new ArrayList<>();
       for(int i = 0; i < this.pages.size(); i++)
-        if(this.pages.get(i).hasMoreMistakesThan(amount))
-          pages.add(this.pages.get(i));
-        else if(pages.size() > 0)
-          break;
+        if(this.pages.get(i).hasMoreMistakesThan(amount)) pages.add(this.pages.get(i));
+        else if(pages.size() > 0) break;
       return pages;
     }
   }
@@ -148,23 +146,19 @@ public class Exercice {
   public static float sumEvenRows(float[][] matrix) {
     if(matrix.length != 9) throw new IllegalArgumentException("Please use 9 rows");
     float sum = 0;
-    for(int i = 0; i < matrix.length; i++) {
+    for(int i = 0; i < matrix.length; i++)
       if(matrix[i].length != 9)
         throw new IllegalArgumentException("Please use 9 columns");
-      for(int j = 0; j < matrix[i].length; j += 2)
+      else for(int j = 0; j < matrix[i].length; j += 2)
         sum += matrix[i][j];
-    }
     return sum;
   }
   private enum TriangleType {
     EQUILATERAL, ISOSCELES, SCALENE, IMPOSSIBLE; 
     public static TriangleType triangleTypeOf(Triangle t) {
-      if (t.getX() >= t.getY() + t.getZ() || t.getY() >= t.getX() + t.getZ())
-        return IMPOSSIBLE;
-      if(t.getX() == t.getY() && t.getX() == t.getZ())
-        return EQUILATERAL;
-      else if(t.getX() == t.getY() || t.getX() == t.getZ() || t.getY() == t.getZ())
-        return ISOSCELES;
+      if (t.getX() >= t.getY() + t.getZ() || t.getY() >= t.getX() + t.getZ()) return IMPOSSIBLE;
+      if(t.getX() == t.getY() && t.getX() == t.getZ()) return EQUILATERAL;
+      if(t.getX() == t.getY() || t.getX() == t.getZ() || t.getY() == t.getZ()) return ISOSCELES;
       return SCALENE;
     }
   }
