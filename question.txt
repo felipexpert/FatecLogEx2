@@ -1,0 +1,45 @@
+1 - Faça um programa que receba três vetores de 7 posições, onde os dois
+primeiros conterão números e o terceiro será um vetor de caracteres
+preenchido com as quatro operações aritméticas básicas. O programa deverá
+armazenar em um quarto vetor o resultado do calculo entre os dois primeiros
+vetores numéricos levando em consideração as operações aritméticas
+informadas no quarto vetor.
+
+2 - Existe um livro de 370 páginas que foi recentemente impresso. A editora deseja
+fazer um estudo sobre possíveis erros de impressão. Desta forma, um
+especialista foi convidado a levantar quantos erros existem em cada página.
+Cada valor foi digitado na forma de um vetor, formando um conjunto de 370
+valores. Definir um programa que leia este conjunto de dados, e responda:
+a) qual a página que tem mais erros? (suponha que só existe uma e ela é única)
+b) quantas páginas têm zero erros?
+c) quantas páginas têm mais de 10 erros?
+
+3 - Faça um programa que dada a tabela abaixo, leia o no da palestra de um
+evento e mostre ao participante em que local e horário ela será realizada.
+Utilize uma Matriz para resolver o problema.
+
+Tabela:
+Código	Palestra			Local			Horário
+1	Linux				Auditório 1		8h as 9h
+2	Recuperação de desastres	Auditório 2		9h as 10h
+3	Windows Server			Auditótio 3		13h as 14h
+4	Lógica e Programação		Auditório Principal	15h as 17h
+
+4 - Faça um programa que encontre o determinante de uma matriz 2x2. O
+determinante é dado pela diferença entre o produto da diagonal principal e o
+da diagonal secundária.
+
+5 - Criar uma função que receba por parâmetro uma matriz 9x9 de números reais
+e retorne a soma dos elementos das linhas pares da matriz.
+
+6 - Escreva uma função que receba 3 valores reais X, Y e Z. Verifique se esses
+valores podem ser os comprimentos dos lados de um triângulo e, neste caso,
+retorne qual o tipo de triângulo será formado. Para que X, Y e Z formem um
+triângulo é necessário que a seguinte propriedade seja satisfeita: o
+comprimento de cada lado de um triângulo é menor do que a soma do
+comprimento dos outros dois lados. A função deve identificar e retornar o tipo
+de triângulo formado observando as seguintes definições:
+	a - Triângulo Equilátero: os comprimentos dos 3 lados são iguais.
+	b - Triângulo Isósceles: os comprimentos de 2 lados são iguais.
+	c - Triângulo Escaleno: os comprimentos dos 3 lados são diferentes.
+
