@@ -115,7 +115,7 @@ public class Exercice {
     public Page pageWithMoreMistakes() { return pages.get(pages.size() - 1); }
     public List<Page> pagesWithoutMistakes() {
       List<Page> pages = new ArrayList<>();
-      for(int i = 0; !this.pages.get(i).hasMistakes(); i++) 
+      if(this.pages.size() > 0) for(int i = 0; !this.pages.get(i).hasMistakes(); i++) 
         pages.add(this.pages.get(i));
       return pages;
     }
