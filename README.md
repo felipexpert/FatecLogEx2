@@ -1,5 +1,5 @@
 # FatecLogEx2
-<h1>English</h1>
+<h2>English</h2>
 <strong>This is a set of exercices with problems about arrays and matrix, although they could 
 be easily solved without any OOP technic, I thought it would be better to use them, to better clarify the problems.</strong>
 
