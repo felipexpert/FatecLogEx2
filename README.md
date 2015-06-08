@@ -1,0 +1,2 @@
+# FatecLogEx2
+Exercies
