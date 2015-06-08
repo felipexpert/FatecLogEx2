@@ -1,7 +1,7 @@
 # FatecLogEx2
 <h1>English</h1>
-<strong>This is a set of exercices with easy exercices about problems about arrays and matrix, although they could 
-be easily solved without any OOP techniches, I thought it would be better to use them, to better clarify the problem.</strong>
+<strong>This is a set of exercices with problems about arrays and matrix, although they could 
+be easily solved without any OOP technic, I thought it would be better to use them, to better clarify the problems.</strong>
 
 <h2>How to run the code</h2> 
 
