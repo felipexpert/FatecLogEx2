@@ -122,10 +122,10 @@ public class Exercice {
     public List<Page> pagesWithMoreMistakesThan(int amount) {
       List<Page> pages = new ArrayList<>();
       for(int i = 0; i < this.pages.size(); i++)
-        if(pages.size() > 0 && !this.pages.get(i).hasMoreMistakesThan(amount))
-          break;
-        else if(this.pages.get(i).hasMoreMistakesThan(amount))
+        if(this.pages.get(i).hasMoreMistakesThan(amount))
           pages.add(this.pages.get(i));
+        else if(pages.size() > 0)
+          break;
       return pages;
     }
   }
